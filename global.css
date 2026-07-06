@@ -16,7 +16,8 @@ html:focus-within {
 
 html,
 body {
-  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Improve text rendering */
@@ -135,10 +136,10 @@ p {
 h1 {
   font-size: clamp(2rem, 5vw, 3.75rem);
   font-weight: 800;
-  line-height: 1.1;
+  line-height: 4rem;
   letter-spacing: -0.03em;
   color: var(--text);
-  margin: 1rem;
+  margin: 0rem;
 }
 
 /* Optional spacing consistency */
