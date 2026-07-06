@@ -5,6 +5,7 @@
   padding: 2rem;
   border: 1px solid grey;
   margin: 1rem;
+  position: relative;
 }
 
 .question-card__wrapper h2 {
@@ -25,4 +26,26 @@
   border-radius: 999px;
   background: #e5e7eb;
   color: #111;
+}
+
+.question-card__bookmark {
+  background: transparent;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  width: 4rem;
+  color: #000;
+  border: 1px solid grey;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.question-card__bookmark:hover {
+  transform: scale(1.1);
+}
+
+.question-card__bookmark.is-bookmarked {
+  color: gold;
 }
