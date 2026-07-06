@@ -11,3 +11,18 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
+
+.question-card__meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.question-card__tag {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  background: #e5e7eb;
+  color: #111;
+}
