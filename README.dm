@@ -7,11 +7,8 @@ In this project we will have 3 pages:
 * Home page: Here, you’ll have access to view all questions available on the platform.
 * Bookmark page: This is a dedicated space where you can exclusively view the questions you’ve bookmarked, similar to the ones marked on the home page.
 * Profile page: This section allows you to view and manage your profile and settings.
-* Explore these topic ideas for your quiz app or choose your own, avoiding placeholder text.
 
 # 1. Home Page
-As you already know from previous challenges, as developers we want to always finish a feature and add it to our main branch, instead of starting 3 different features and none of them work. This is why the first step to success is to start with the homepage.
-Create the following layout:
 
 - Start with the feature 'title' on a fresh feature branch and create the app title.
 - When done, use the feature branch workflow to merge your results into the main branch.
