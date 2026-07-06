@@ -54,6 +54,10 @@
    PROFILE CARD
 ========================= */
 
+.profile-container {
+  margin: 2rem;
+}
+
 .profile-card {
   display: flex;
   align-items: center;
@@ -115,6 +119,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 .stat-card {
