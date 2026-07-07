@@ -1,6 +1,8 @@
 .toggle-container {
   position: relative;
-  margin-bottom: 2rem;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
 }
 
 .toggle-button {
