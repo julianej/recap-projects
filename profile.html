@@ -66,10 +66,10 @@
     <main class="profile-container">
       <!-- User Card -->
       <section class="profile-card">
-        <div class="profile-avatar">👤</div>
+        <div class="profile-avatar"></div>
 
         <div class="profile-info">
-          <h2 class="profile-name">Your Name</h2>
+          <h2 class="profile-name">Juliane Jeske</h2>
           <p class="profile-email">you@example.com</p>
         </div>
       </section>
@@ -94,8 +94,45 @@
 
       <!-- Actions -->
       <section class="profile-actions">
-        <a href="index.html" class="btn">Settings</a>
-        <button class="btn danger" type="button">Toggle Dark Mode</button>
+        <div class="toggle-container">
+          <h2>Dark Mode</h2>
+          <button
+            class="toggle-button"
+            type="button"
+            aria-pressed="false"
+            aria-label="Toggle dark mode"
+          >
+            <span class="toggle-button__track">
+              <span class="toggle-button__thumb"></span>
+            </span>
+          </button>
+        </div>
+        <div class="toggle-container">
+          <h2>Notifications</h2>
+          <button
+            class="toggle-button"
+            type="button"
+            aria-pressed="false"
+            aria-label="Toggle bookmarks filter"
+          >
+            <span class="toggle-button__track">
+              <span class="toggle-button__thumb"></span>
+            </span>
+          </button>
+        </div>
+        <div class="toggle-container">
+          <h2>GPS Privacy</h2>
+          <button
+            class="toggle-button"
+            type="button"
+            aria-pressed="false"
+            aria-label="Toggle bookmarks filter"
+          >
+            <span class="toggle-button__track">
+              <span class="toggle-button__thumb"></span>
+            </span>
+          </button>
+        </div>
       </section>
     </main>
 

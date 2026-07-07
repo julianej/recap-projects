@@ -1,0 +1,48 @@
+.toggle-container {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.toggle-button {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  right: 1rem;
+  position: absolute;
+  top: 0rem;
+}
+
+.toggle-button__track {
+  width: 3.5rem;
+  height: 2rem;
+  padding: 0.2rem;
+
+  display: flex;
+  align-items: center;
+
+  border: 2px solid #111;
+  border-radius: 999px;
+  background: #e5e7eb;
+
+  transition: background-color 0.25s ease;
+}
+
+.toggle-button__thumb {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background: #111;
+
+  transform: translateX(0);
+  transition: transform 0.25s ease;
+}
+
+/* active state */
+.toggle-button.is-active .toggle-button__track {
+  background: #c7f9cc;
+}
+
+.toggle-button.is-active .toggle-button__thumb {
+  transform: translateX(1.4rem);
+}
