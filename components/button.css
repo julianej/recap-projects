@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .question-card__toggle {
   background: transparent;
   font-size: 0.8rem;
@@ -17,7 +16,8 @@
 
 .question-card__toggle:hover {
   background: grey;
-=======
+}
+
 .toggle-container {
   position: relative;
   margin: 1rem 0;
@@ -67,5 +67,4 @@
 
 .toggle-button.is-active .toggle-button__thumb {
   transform: translateX(1.4rem);
->>>>>>> 7358ff6751c73ba5982773fc43f8a522a8cedde4
 }
