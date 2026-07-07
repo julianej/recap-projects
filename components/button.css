@@ -1,0 +1,19 @@
+.question-card__toggle {
+  background: transparent;
+  font-size: 0.8rem;
+  cursor: pointer;
+  line-height: 1;
+  transition: transform 0.2s ease;
+  /* width: 4rem; */
+  color: #000;
+  /* border: 1px solid grey; */
+  /* position: absolute; */
+  right: 1rem;
+  top: 1rem;
+  text-align: left;
+  padding: 1rem 0 1rem 0;
+}
+
+.question-card__toggle:hover {
+  background: grey;
+}
